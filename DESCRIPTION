@@ -1,15 +1,14 @@
 Package: configulaR
-Title: Manage application settings via .env or .ini files with type
-    casting and default values
+Title: Manage Application Settings Via `.env` Or `.ini` Files With Type
+    Casting And Default Values
 Version: 0.1.0
 Authors@R: 
     person("Morgan", "Durand", , "morgan@dataupsurge.com", role = c("aut", "cre", "cph"))
-Description: This package provides a simple way to manage application
-    settings by loading configuration values from .env or .ini files. It
-    supports default values, type casting, and environment variable
-    overrides, enabling a clean separation of configuration from code.
-    Ideal for managing credentials, API keys, and deployment-specific
-    settings.
+Description: Provides a simple way to manage application settings by
+    loading configuration values from `.env` or `.ini` files. It supports
+    default values, type casting, and environment variable overrides,
+    enabling a clean separation of configuration from code.  Ideal for
+    managing credentials, API keys, and deployment-specific settings.
 License: MIT + file LICENSE
 URL: https://dataupsurge.github.io/configulaR/,
     https://github.com/dataupsurge/configulaR
