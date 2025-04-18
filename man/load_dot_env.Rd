@@ -9,6 +9,10 @@ load_dot_env(fpath = ".env")
 \arguments{
 \item{fpath}{The path to the `.env` config file}
 }
+\value{
+A named list of environment variables, where names are
+the variable names and values are the variable values
+}
 \description{
 The file is parsed, and line is expected to have one of the
  following formats:

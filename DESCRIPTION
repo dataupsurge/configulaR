@@ -1,11 +1,10 @@
 Package: configulaR
-Title: Manage Application Settings via `.env` or `.ini` Files with Type
-    Casting and Default Values
+Title: Manage Application Settings via '.env' or '.ini' Files
 Version: 0.1.0
 Authors@R: 
     person("Morgan", "Durand", , "morgan@dataupsurge.com", role = c("aut", "cre", "cph"))
 Description: Provides a simple way to manage application settings by
-    loading configuration values from `.env` or `.ini` files. It supports
+    loading configuration values from '.env' or '.ini' files. It supports
     default values, type casting, and environment variable overrides,
     enabling a clean separation of configuration from code.  Ideal for
     managing credentials, API keys, and deployment-specific settings.

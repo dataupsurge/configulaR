@@ -47,6 +47,8 @@
 #' unlink(tmp)
 #' @import magrittr
 
+#' @return A named list of environment variables, where names are
+#' the variable names and values are the variable values
 load_dot_env <- function(fpath = ".env") {
   assert_that(is.readable(fpath))
 
@@ -57,6 +59,12 @@ load_dot_env <- function(fpath = ".env") {
   env
 }
 
+#' Parse environment variables from lines in a .env file
+#'
+#' @param lines Character vector containing lines from a .env file
+#'
+#' @return A named list where names are environment variable names
+#' and values are their corresponding values
 parse_dot_line <- function(lines) {
   line_regex <- paste0(
     "^\\s*", # leading whitespace
